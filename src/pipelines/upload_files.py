@@ -1,6 +1,6 @@
 import logging
-from src.services.microsoft.services.sharepoint import SharePointService
-from src.services.rdstation.endpoints import ENDPOINTS_CONFIG
+from src.services.microsoft.sharepoint import SharePointService
+from src.settings.endpoints import ENDPOINTS_CONFIG
 
 logger = logging.getLogger(__name__)
 

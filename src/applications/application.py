@@ -2,8 +2,8 @@
 import logging
 from src.services.microsoft.client import MicrosoftClient
 from src.services.rdstation.client import RdClient
-from src.services.rdstation.service import RdService
-from src.services.microsoft.services.sharepoint import SharePointService
+from src.services.rdstation.rdstation import RdService
+from src.services.microsoft.sharepoint import SharePointService
 from src.settings.config import Settings
 from src.pipelines.download_files import download_files
 from src.pipelines.upload_files import upload_files

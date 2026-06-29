@@ -1,7 +1,7 @@
 import logging
 from datetime import datetime, timedelta
 from src.services.rdstation.client import RdClient
-from src.services.rdstation.endpoints import ENDPOINTS_CONFIG
+from src.settings.endpoints import ENDPOINTS_CONFIG
 
 logger = logging.getLogger(__name__)
 

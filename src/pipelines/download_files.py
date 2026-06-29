@@ -1,6 +1,6 @@
 import logging
-from src.services.rdstation.service import RdService
-from src.services.rdstation.endpoints import ENDPOINTS_CONFIG
+from src.services.rdstation.rdstation import RdService
+from src.settings.endpoints import ENDPOINTS_CONFIG
 
 logger = logging.getLogger(__name__)
 
